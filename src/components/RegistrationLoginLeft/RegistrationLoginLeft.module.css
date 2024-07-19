@@ -1,0 +1,84 @@
+.left{
+    min-height: 100vh;
+    width: 60%;
+    background-image: url('../../assets/images/Background.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 135px;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+}
+.logo{
+    max-width: 264px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.title{
+    font-family: Dosis_Regular, sans-serif;
+    margin-bottom: 24px;
+    color: #1F1831;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.1px;
+}
+.subtitle{
+    color: #3E3062;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    max-width: 456px;
+    width: 100%;
+}
+.navigateIcon{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.titleTerms{
+    font-family: Dosis_Regular, sans-serif;
+    margin-bottom: 24px;
+    color: #1F1831;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.1px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+    width: 100%;
+}
+.textTerms{
+    color: #3E3062;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    max-width: 552px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.subTitleTerms{
+    color: #1F1831;
+    font-family: Dosis_Regular,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 8px;
+}
+.termsWhole{
+    max-width: 100%;
+    overflow: auto;
+    width: 100%;
+}

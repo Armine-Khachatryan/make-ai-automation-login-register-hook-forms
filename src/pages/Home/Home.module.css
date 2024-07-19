@@ -1,0 +1,140 @@
+.wholeHome{
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.whole{
+    max-width: 1150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+    gap: 24px !important;
+    color: #6B6B6B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.addBtn{
+    border-radius: 100px;
+    background: #6750A4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+    width: fit-content;
+    padding: 10px 24px 10px 16px;
+}
+.addBtn:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.plusIcon{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.avatarDiv{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+.writer{
+    max-width: 552px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Dosis_Regular,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 8px;
+}
+.messageDiv{
+    border-radius: 8px;
+    background: #F7F2FA;
+    padding:16px;
+    color: #49454F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    max-width: 552px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.textareaContainer{
+    max-width: 552px;
+    width: 100%;
+    padding:16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px 8px 0px 0px;
+    background: #E6E0E9;
+    border-bottom: 1px solid #49454F;
+    margin-bottom: 24px;
+}
+
+.textareaStyle {
+    height: 100px;
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px;
+    color: #49454F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-family: Roboto_Regular,sans-serif !important;
+}
+
+.btn {
+    align-self: flex-end;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px 24px 10px 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    border-radius: 100px;
+    background: #6750A4;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 16px 0px #6B9BF2 !important;
+}
+.sendIcon{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.questionsAnswers{
+    max-height: 480px;
+    overflow-y: auto;
+}

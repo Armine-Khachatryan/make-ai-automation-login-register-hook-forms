@@ -1,0 +1,27 @@
+header{
+    padding: 8px 80px 8px 28px;
+    background: #F7F2FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    max-width: 82px;
+    width: 100%;
+}
+
+.user{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+}
